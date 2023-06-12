@@ -4,15 +4,16 @@
 
 - Vite
 - Eslint
+- Standard
 - Prettier
-- VSCode
 
 ## Eslint custom rules:
 
 ```json
  "rules": {
     "react-refresh/only-export-components": "warn",
-    "no-unused-vars": "warn"
+    "no-unused-vars": "warn",
+    "no-console": "warn"
   }
 ```
 
